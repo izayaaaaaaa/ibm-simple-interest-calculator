@@ -19,7 +19,7 @@ function compute()
 
     // display result
     result = document.getElementById("result")
-    document.getElementById("result").innerHTML = "If you deposite " + principal + ",\<br\> at an interest rate of " + rate + "%\<br\>You will receive an amount of " + interest + ",\<br\>in the year " + year; 
+    document.getElementById("result").innerHTML = `If you deposite <mark>${principal}</mark>,<br>at an interest rate of <mark>${rate}</mark>%\<br\>You will receive an amount of <mark>${interest}</mark>,\<br\>in the year <mark>${year}</mark>`; 
 }   
 
 // ensure that the rate slider is working in real time
