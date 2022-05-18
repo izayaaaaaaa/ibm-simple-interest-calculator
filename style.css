@@ -9,6 +9,7 @@ h1{
    font-family: verdana;
 }
 
+/* center main content with rounded corners */
 .maindiv {
    background-color: white;
    color: black;
